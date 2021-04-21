@@ -1,0 +1,222 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Common Classes */
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color:  white;
+}
+li {
+  list-style-type: none;
+}
+h1, h2, p {
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.38;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+h2 {
+    font-size: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+p {
+  font-size: 20px;
+  max-width: 250px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+background-image: url('https://i.ibb.co/R4Std6r/bg-1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+}
+.bg-wrapper {
+   background: rgba(70, 72, 82, 0.5);
+   min-height: 100vh;
+}
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header nav,
+nav ul {
+  display: flex;
+}
+header nav {
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 20px;
+  min-height: 100px;
+}
+
+header img {
+  width: 56px;
+  height: 56px;
+}
+header li {
+  margin: 10px 20px;
+}
+#logo-name {
+  font-weight: 700;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.nav-links {
+  flex-grow: 2;
+  justify-content: flex-end;
+}
+.nav-links a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+#setmore-start:hover {
+  background-color: #b33b70;
+  border-bottom: none;
+  padding-bottom:10px;
+}
+.btn-main {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff55a0;
+  border-radius: 100px;
+  color: white;
+  font-size: 15px;
+}
+.book-btn-block h2 {
+  text-align: center;
+}
+.book-btn-block hr {
+  max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.book-btn-block ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.book-btn-block h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 30px;
+}
+.book-btn-block a {
+  padding: 15px 20px;
+  border-radius: 100px;
+  outline: none;
+}
+.book-btn-block .btn-col-pri {
+  background-color: #b78b4f;
+}
+.book-btn-block .btn-col-pri:hover {
+  background-color: #8e6a39;
+}
+.book-btn-block .btn-col-sec {
+  background-color: #b3476f;
+}
+.book-btn-block .btn-col-sec:hover {
+  background-color: #903858;
+}
+.book-btn-block .btn-col-other {
+  background-color: #8aa13a;
+}
+.book-btn-block .btn-col-other:hover {
+  background-color: #586726;
+}
+.about-us {
+  padding: 40px 30px;
+}
+.about-us h2,
+.about-us p {
+  color: black;
+  max-width: 960px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.about-us h2 {
+  margin-bottom: 30px;
+}
+.about-us h2 {
+  text-align: center;
+}
+.about-us figure {
+  width: 33%;
+  padding: 0 20px;
+  position: relative;
+}
+.about-us span {
+  position: absolute;
+  bottom: 0;
+  padding: 20px 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: #00000078;
+  width: 89%;
+  color: white;
+  font-size: 15px;
+}
+.about-us img {
+  max-width: 100%;
+}
+.img-block {
+  display: flex;
+  max-height: 430px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: #4B4453;
+  padding: 40px 0;
+}
+.footer-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-block p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: white;
+  font-weight: 300;
+}
+.footer-block a {
+  color: #4FFBDF;
+}
+.footer-block a:hover {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+  transition-delay: 0.2s;
+  transition-timing-function: ease-in;
+}
+footer h2 {
+  margin-bottom: 40px;
+  text-align: center;
+}
